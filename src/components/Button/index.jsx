@@ -1,7 +1,7 @@
 export const Button = ({link, value}) => {
   return (
-		<form action={link}>
-			<button type="button" className="py-3 px-1 mt-6 font-bold border-2 border-black rounded-full pointer w-44">{value}</button>
+		<form action={link} className="self-center">
+			<button type="button" className="py-5 px-11 mt-10 font-bold border-2 bg-black text-lg text-ine-gray-200 rounded-full pointer">{value}</button>
 		</form>
 	)
 }
