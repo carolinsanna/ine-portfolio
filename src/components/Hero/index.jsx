@@ -5,7 +5,7 @@ export const Hero = () => {
 				Hello, my name is Inessa
       </h1>
 			<p className='text-[4rem] text-ine-black-100 leading-[4.75rem]'>
-				I'm a passionate UX/UI Designer <br /> with 5+ years of experience <br /> in building digital products
+				I&apos;m a passionate UX/UI Designer with 5+ years of experience in building digital products.
       </p>						
 		</div>
   )
