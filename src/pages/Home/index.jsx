@@ -2,6 +2,7 @@ import { Hero } from './../../components/Hero'
 import { Work } from './../../components/Work'
 import { Button } from './../../components/Button'
 import { Nav } from './../../components/Nav'
+import { Title } from '../../components/Title'
 
 export function Home(){
   return (
@@ -18,8 +19,18 @@ export function Home(){
           />
         </header>
         <main className='flex flex-col items-center'>
-          <Work />
-        </main>        
+          <section className="flex flex-col items-center gap-8 py-20">
+            <Title
+              pretitle='HERE IS SOME OF MY'
+              title='Professional Work'
+            />
+            <Work/>
+            <Button
+              link='/Work'
+              value='See All'
+            />
+          </section>
+        </main>
       </div>
 
     </div>
