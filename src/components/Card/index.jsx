@@ -2,7 +2,7 @@ import ButtonArrow from "../../assets/btn-arrow.svg?react"
 
 export const Card = ({imgsrc, title, description, link}) => {
   return (
-    <div className="card pb-5 border-2 w-1/3">
+    <div className="card pb-5 text-ine-gray-900 border-2 w-1/3 dark:text-ine-gray-100">
       <div>
         <img src={imgsrc} />
       </div>

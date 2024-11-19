@@ -1,13 +1,14 @@
 import { Hero } from './../../components/Hero'
-import { Work } from './../../components/Work'
 import { Button } from './../../components/Button'
 import { Nav } from './../../components/Nav'
 import { Title } from '../../components/Title'
+import { Card } from './../../components/Card'
 
 export function Home(){
   return (
-    <div className='flex flex-col items-center gap-4 w-full'>
-      <div className='sticky border-b top-0 z-40 backdrop-blur transition-colors duration-500 border-slate-950/10 dark:bg-transparent dark:border-slate-100/10 w-full'>
+    <div className='flex flex-col items-center gap-4 w-full dark:bg-ine-gray-900'>
+      <div className='sticky border-b top-0 z-40 backdrop-blur transition-colors 
+      duration-500 border-slate-950/10 dark:bg-transparent dark:border-slate-100/10 w-full'>
         <Nav/>
       </div>
       <div className="px-20 max-w-screen-xl">
@@ -24,7 +25,26 @@ export function Home(){
               pretitle='HERE IS SOME OF MY'
               title='Professional Work'
             />
-            <Work/>
+            <div className="flex gap-4 justify-center">
+              <Card
+                imgsrc="/placeholder.png"
+                title="Title"
+                description="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+                link="/Title"
+              />
+              <Card
+                imgsrc="/placeholder.png"
+                title="Title"
+                description="Id eros pellentesque facilisi id mollis faucibus commodo enim."
+                link="/Title"
+              />
+              <Card
+                imgsrc="/placeholder.png"
+                title="Title"
+                description="Nunc, pellentesque velit malesuada non massa arcu."
+                link="/Title"
+              />
+            </div>
             <Button
               link='/Work'
               value='See All'
