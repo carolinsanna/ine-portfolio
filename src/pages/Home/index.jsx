@@ -6,7 +6,7 @@ import { Nav } from './../../components/Nav'
 export function Home(){
   return (
     <div className='flex flex-col items-center gap-4 w-full'>
-      <div className='sticky top-0 z-40 backdrop-blur transition-colors duration-500 w-full'>
+      <div className='sticky border-b top-0 z-40 backdrop-blur transition-colors duration-500 border-slate-950/10 dark:bg-transparent dark:border-slate-100/10 w-full'>
         <Nav/>
       </div>
       <div className="px-20 max-w-screen-xl">
