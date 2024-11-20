@@ -25,23 +25,35 @@ export function Home(){
               pretitle='Here is some of my'
               title='Professional Work'
             />
-            <div className="flex gap-4 justify-center">
+            <div className="grid grid-cols-3 gap-4 justify-center">
               <Card
-                imgsrc="/placeholder.png"
-                title="Title"
-                description="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse."
+                imgsrc="/nursa-bill-pay.png"
+                title="Billings and Payments"
+                description="Targeted micro-projects for Billings and Payments team at Nursa"
                 link="/Title"
               />
               <Card
-                imgsrc="/placeholder.png"
-                title="Title"
-                description="Id eros pellentesque facilisi id mollis faucibus commodo enim."
+                imgsrc="/nursa-manage-requests.png"
+                title="Manage Requests"
+                description="A panel that helps schedulers to select which nurse is the best fit for a job"
                 link="/Title"
               />
               <Card
-                imgsrc="/placeholder.png"
-                title="Title"
-                description="Nunc, pellentesque velit malesuada non massa arcu."
+                imgsrc="/nursa-resume-imports.png"
+                title="Resume Importer"
+                description="Automatically fills out user's profile by uploading their resume"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/pse.png"
+                title="Plataforma Socioeducativa"
+                description="Logo and the Design System for the Plataforma Socioeducativa (PSE)"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/wodz.png"
+                title="Wodz"
+                description="Logo for the Music Schools and Studio Wodz"
                 link="/Title"
               />
             </div>
