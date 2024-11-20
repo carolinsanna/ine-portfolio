@@ -22,7 +22,7 @@ export function Home(){
         <main className='flex flex-col items-center'>
           <section className="flex flex-col items-center gap-8 py-20">
             <Title
-              pretitle='HERE IS SOME OF MY'
+              pretitle='Here is some of my'
               title='Professional Work'
             />
             <div className="flex gap-4 justify-center">
@@ -45,10 +45,6 @@ export function Home(){
                 link="/Title"
               />
             </div>
-            <Button
-              link='/Work'
-              value='See All'
-            />
           </section>
         </main>
       </div>

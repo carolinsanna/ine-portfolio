@@ -2,9 +2,9 @@ import ButtonArrow from "../../assets/btn-arrow.svg?react"
 
 export const Card = ({imgsrc, title, description, link}) => {
   return (
-    <div className="card pb-5 text-ine-gray-900 border-2 w-1/3 dark:text-ine-gray-100">
+    <div className="card pb-5 text-ine-gray-900 border w-full dark:text-ine-gray-100">
       <div>
-        <img src={imgsrc} />
+        <img src={imgsrc} className="h-[220px]"/>
       </div>
       <div className="px-4 py-6">
         <h3 className="font-bold text-ine-heading-sm pb-4">{title}</h3>
