@@ -7,12 +7,12 @@ export const Card = ({imgsrc, title, description, link}) => {
         <img src={imgsrc} />
       </div>
       <div className="px-4 py-6">
-        <h3 className="font-bold text-xl pb-4">{title}</h3>
+        <h3 className="font-bold text-ine-heading-sm pb-4">{title}</h3>
         <p>{description}</p>
       </div>
       <form action={link} className="flex justify-center p-4">
-        <button type="button" className="flex gap-4 pointer font-semibold">
-          More Info <ButtonArrow />
+        <button type="button" className="flex gap-4 pointer text-ine-link-lg text-ine-gray-500">
+          More Info <ButtonArrow className="self-center" />
         </button>
       </form>
     </div>
