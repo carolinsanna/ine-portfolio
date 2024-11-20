@@ -58,6 +58,50 @@ export function Home(){
               />
             </div>
           </section>
+          <section className="flex flex-col items-center gap-8 py-20">
+            <Title
+              pretitle='Studies and'
+              title='Personal Projects'
+            />
+            <div className="grid grid-cols-3 gap-4 justify-center">
+              <Card
+                imgsrc="/veg.png"
+                title="Guia Veg (WIP)"
+                description="Current phase: ideation"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/catsis.png"
+                title="CatSis"
+                description="An app to find someone to help you with taking care of your cat"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/food-app.png"
+                title="Food / Drink App"
+                description="Daily UI Challenge: Food / Drink Menu"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/404.png"
+                title="404 Page"
+                description="Daily Challenge: 404 Page"
+                link="/Title"
+              />
+              <Card
+                imgsrc="/portfolio.png"
+                title="Portfolio"
+                description="Process of making this portfolio"
+                link="/Home"
+              />
+              <Card
+                imgsrc="/credit-card.png"
+                title="Credit Card"
+                description="Daily UI Challenge: Credit Card"
+                link="/Title"
+              />
+            </div>
+          </section>
         </main>
       </div>
 
