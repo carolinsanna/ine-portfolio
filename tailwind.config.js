@@ -4,9 +4,6 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontSize:{
-      
-    },
     extend: {
       colors: {
         ine: {
@@ -18,6 +15,58 @@ export default {
             900: '#282828'
           }
         }
+      },
+      fontSize: {
+        'ine-heading-xl': ['4rem', {
+          lineHeight: '140%',
+          letterSpacing: '0em',
+          fontWeight: '400'
+        }],
+        'ine-heading-lg': ['2.75rem',{
+          lineHeight: '110%',
+          letterSpacing: '0em',
+          fontWeight: '700'
+        }],
+        'ine-heading-md': ['2rem',{
+          lineHeight: '100%',
+          letterSpacing: '0em',
+          fontWeight: '400'
+        }],
+        'ine-heading-sm': ['1.25rem',{
+          lineHeight: '125%',
+          letterSpacing: '0em',
+          fontWeight: '700',
+        }],
+        'ine-heading-xs': ['1.125rem',{
+          lineHeight: '110%',
+          letterSpacing: '0em',
+          fontWeight: '500'
+        }],
+        'ine-text-md': ['1rem', {
+          lineHeight: '140%',
+          letterSpacing: '0em',
+          fontWeight: '400'
+        }],
+        'ine-text-sm': ['0.875rem', {
+          lineHeight: '140%',
+          letterSpacing: '0em',
+          fontWeight: '400'
+        }],
+        'ine-text-xs': ['0.75rem', {
+          lineHeight: '150%',
+          letterSpacing: '0em',
+          fontWeight: '400'
+        }],
+        'ine-link-lg': ['1.25rem', {
+          lineHeight: '140%',
+          letterSpacing: '0.03125em',
+          fontWeight: '500'
+        }],
+        'ine-link-md': ['1rem', {
+          lineHeight: '100%',
+          letterSpacing: '0.03125em',
+          fontWeight: '500'
+        }]
       }
     },
   },
