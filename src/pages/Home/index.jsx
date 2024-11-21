@@ -3,6 +3,7 @@ import { Button } from './../../components/Button'
 import { Nav } from './../../components/Nav'
 import { Title } from '../../components/Title'
 import { Card } from './../../components/Card'
+import { Footer } from './../../components/Footer'
 
 export function Home(){
   return (
@@ -103,6 +104,7 @@ export function Home(){
             </div>
           </section>
         </main>
+        <Footer/>
       </div>
 
     </div>
