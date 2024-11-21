@@ -32,15 +32,20 @@ export default {
           letterSpacing: '0em',
           fontWeight: '400'
         }],
-        'ine-heading-sm': ['1.25rem',{
-          lineHeight: '125%',
+        'ine-heading-sm': ['1.5rem',{
+          lineHeight: '140%',
           letterSpacing: '0em',
           fontWeight: '700',
         }],
-        'ine-heading-xs': ['1.125rem',{
+        'ine-heading-xs': ['1.25rem',{
+          lineHeight: '125%',
+          letterSpacing: '0em',
+          fontWeight: '700'
+        }],
+        'ine-text-lg': ['1.125rem', {
           lineHeight: '110%',
           letterSpacing: '0em',
-          fontWeight: '500'
+          fontWeight: '400'
         }],
         'ine-text-md': ['1rem', {
           lineHeight: '140%',
