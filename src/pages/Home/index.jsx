@@ -11,7 +11,7 @@ export function Home(){
       duration-500 border-slate-950/10 dark:bg-transparent dark:border-slate-100/10 w-full'>
         <Nav/>
       </div>
-      <div className="px-20 max-w-screen-xl">
+      <div className="px-10 max-w-screen-xl md:px-20">
         <header className='flex flex-col'>          
           <Hero/>
           <Button
@@ -20,12 +20,12 @@ export function Home(){
           />
         </header>
         <main className='flex flex-col items-center'>
-          <section className="flex flex-col items-center gap-8 py-20">
+          <section className="flex flex-col items-center gap-8 py-10 sm:py-11 lg:py-20">
             <Title
               pretitle='Here is some of my'
               title='Professional Work'
             />
-            <div className="grid grid-cols-3 gap-4 justify-center">
+            <div className="grid gap-4 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 imgsrc="/nursa-bill-pay.png"
                 title="Billings and Payments"
@@ -58,12 +58,12 @@ export function Home(){
               />
             </div>
           </section>
-          <section className="flex flex-col items-center gap-8 py-20">
+          <section className="flex flex-col items-center gap-8 py-10 sm:py-11 lg:py-20">
             <Title
               pretitle='Studies and'
               title='Personal Projects'
             />
-            <div className="grid grid-cols-3 gap-4 justify-center">
+            <div className="grid gap-4 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 imgsrc="/veg.png"
                 title="Guia Veg (WIP)"
