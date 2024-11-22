@@ -32,30 +32,35 @@ export function Home(){
                 title="Billings and Payments"
                 description="Targeted micro-projects for Billings and Payments team at Nursa"
                 link="/Title"
+                alt="Bilings and Payments"
               />
               <Card
                 imgsrc="/nursa-manage-requests.png"
                 title="Manage Requests"
                 description="A panel that helps schedulers to select which nurse is the best fit for a job"
                 link="/Title"
+                alt="Manage Requests"
               />
               <Card
                 imgsrc="/nursa-resume-imports.png"
                 title="Resume Importer"
                 description="Automatically fills out user's profile by uploading their resume"
                 link="/Title"
+                alt="Resume Importer"
               />
               <Card
                 imgsrc="/pse.png"
                 title="Plataforma Socioeducativa"
                 description="Logo and the Design System for the Plataforma Socioeducativa (PSE)"
                 link="/Title"
+                alt="Plataforma Socioeducativa"
               />
               <Card
                 imgsrc="/wodz.png"
                 title="Wodz"
                 description="Logo for the Music Schools and Studio Wodz"
                 link="/Title"
+                alt="Wodz"
               />
             </div>
           </section>
@@ -70,36 +75,42 @@ export function Home(){
                 title="Guia Veg (WIP)"
                 description="Current phase: ideation"
                 link="/Title"
+                alt="Guia Veg"
               />
               <Card
                 imgsrc="/catsis.png"
                 title="CatSis"
                 description="An app to find someone to help you with taking care of your cat"
                 link="/Title"
+                alt="CatSis"
               />
               <Card
                 imgsrc="/food-app.png"
                 title="Food / Drink App"
                 description="Daily UI Challenge: Food / Drink Menu"
                 link="/Title"
+                alt="Food / Drink App"
               />
               <Card
                 imgsrc="/404.png"
                 title="404 Page"
                 description="Daily Challenge: 404 Page"
                 link="/Title"
+                alt="404 Page"
               />
               <Card
                 imgsrc="/portfolio.png"
                 title="Portfolio"
                 description="Process of making this portfolio"
                 link="/Home"
+                alt="Portfolio"
               />
               <Card
                 imgsrc="/credit-card.png"
                 title="Credit Card"
                 description="Daily UI Challenge: Credit Card"
                 link="/Title"
+                alt="Credit Card"
               />
             </div>
           </section>
