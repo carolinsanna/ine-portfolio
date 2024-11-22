@@ -8,7 +8,7 @@ import { Footer } from './../../components/Footer'
 export function Home(){
   return (
     <div className='flex flex-col items-center gap-4 w-full dark:bg-ine-gray-900'>
-      <div className='sticky  top-0 z-40 backdrop-blur transition-colors 
+      <div className='sticky top-0 z-40 backdrop-blur transition-colors 
       duration-500 shadow-lg dark:bg-transparent w-full'>
         <Nav/>
       </div>
