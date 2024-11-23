@@ -7,7 +7,7 @@ import { Footer } from './../../components/Footer'
 
 export function Home(){
   return (
-    <div className='flex flex-col items-center gap-4 w-full dark:bg-ine-gray-900'>
+    <div className='flex flex-col items-center w-full dark:bg-ine-gray-900'>
       <div className='sticky top-0 z-40 backdrop-blur transition-colors 
       duration-500 shadow-lg dark:bg-transparent w-full'>
         <Nav/>
@@ -21,7 +21,7 @@ export function Home(){
           />
         </header>
         <main className='flex flex-col items-center'>
-          <section className="flex flex-col items-center gap-8 py-10 sm:py-11 lg:py-20">
+          <section className="flex flex-col items-center gap-8 py-8 sm:py-11 lg:py-14">
             <Title
               pretitle='Here is some of my'
               title='Professional Work'
@@ -64,7 +64,7 @@ export function Home(){
               />
             </div>
           </section>
-          <section className="flex flex-col items-center gap-8 py-10 sm:py-11 lg:py-20">
+          <section className="flex flex-col items-center gap-8 py-8 sm:py-11 lg:py-14">
             <Title
               pretitle='Studies and'
               title='Personal Projects'
