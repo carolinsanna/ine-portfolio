@@ -5,10 +5,10 @@ export const Footer = () => {
 		return (
 			<footer className="py-12 flex flex-col gap-10">
 				<div className="flex gap-10 justify-center">
-					<a href="https://www.linkedin.com/in/inessadl/" target="_blank" rel="noopener noreferrer">
+					<a href="https://www.linkedin.com/in/inessadl/" target="_blank" rel="noopener noreferrer" aria-label="Inessa Luerce Linkedin">
 						<Linkedin/>
 					</a>
-					<a href="https://www.instagram.com/inessadl/" target="_blank" rel="noopener noreferrer">
+					<a href="https://www.instagram.com/inessadl/" target="_blank" rel="noopener noreferrer" aria-label="Inessa Luerce Instagram">
 						<Instagram/>
 					</a>
 				</div>
