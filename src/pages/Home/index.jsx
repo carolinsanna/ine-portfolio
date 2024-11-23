@@ -4,8 +4,20 @@ import { Nav } from './../../components/Nav'
 import { Title } from '../../components/Title'
 import { Card } from './../../components/Card'
 import { Footer } from './../../components/Footer'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 export function Home(){
+  const location = useLocation()
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash)
+      if (element) {
+        element.scrollIntoView({behavior: 'smooth'})
+      }
+    }
+  }, [location])
+
   return (
     <div className='flex flex-col items-center w-full dark:bg-ine-gray-900'>
       <div className='sticky top-0 z-40 backdrop-blur transition-colors 
@@ -21,7 +33,7 @@ export function Home(){
           />
         </header>
         <main className='flex flex-col items-center'>
-          <section className="flex flex-col items-center gap-8 py-8 sm:py-11 lg:py-14">
+          <section id="work" className="flex flex-col items-center gap-8 py-8 sm:py-11 lg:py-14">
             <Title
               pretitle='Here is some of my'
               title='Professional Work'
