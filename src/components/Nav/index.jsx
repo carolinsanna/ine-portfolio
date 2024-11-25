@@ -34,7 +34,7 @@ export const Nav = () => {
 
       <div
         className={`${
-          isMenuOpen ? "block" : "hidden"
+          isMenuOpen ? "animate-slideDown" : "hidden"
         } pt-4 md:pt-0 md:block md:my-auto`}
         id="navbar-default"
       >
