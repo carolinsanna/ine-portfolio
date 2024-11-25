@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div id="hero" className="pt-16 pb-10 lg:pt-32">			
+    <div id="hero" className="mt-20 pt-16 pb-10 lg:mt-24 lg:pt-32">			
 			<h1 className='text-ine-text-md sm:text-ine-text-lg lg:text-ine-heading-md text-ine-gray-300 pb-2'>
 				Hello, my name is Inessa
       </h1>
