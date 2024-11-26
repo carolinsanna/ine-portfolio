@@ -39,13 +39,13 @@ export const Nav = () => {
         id="navbar-default"
       >
         <ul className="flex flex-col gap-4 text-ine-link-md text-ine-gray-900 dark:text-ine-gray-100 md:flex-row">
-          <li className="px-2 py-3 self-center md:self-center">
+          <li className="px-2 py-3 self-center hover:text-ine-gray-500 md:self-center">
             <a href="./">Home</a>
           </li>
-          <li className="px-2 py-3 self-center md:self-center">
+          <li className="px-2 py-3 self-center hover:text-ine-gray-500 md:self-center">
             <a href="/#work">Work</a>
           </li>
-          <li className="px-2 py-3 self-center md:self-center">
+          <li className="px-2 py-3 self-center hover:text-ine-gray-500 md:self-center">
             <a href="/about">About</a>
           </li>
         </ul>

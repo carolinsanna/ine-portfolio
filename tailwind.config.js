@@ -12,7 +12,7 @@ export default {
         },
       },
       animation: {
-        slideDown: 'slideDown 0.3s ease-out',
+        slideDown: 'slideDown 0.4s ease-out',
       },
       colors: {
         ine: {
