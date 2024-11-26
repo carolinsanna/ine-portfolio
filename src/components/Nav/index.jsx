@@ -1,13 +1,13 @@
-import Logo from "./../../assets/logo-light.svg?react";
-import LogoDark from "./../../assets/logo-dark.svg?react";
-import Menu from "./../../assets/burger-menu.svg?react";
-import { useState } from "react";
+import Logo from "./../../assets/logo-light.svg?react"
+import LogoDark from "./../../assets/logo-dark.svg?react"
+import Menu from "./../../assets/burger-menu.svg?react"
+import { useState } from "react"
 
 export const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    setIsMenuOpen(!isMenuOpen)
+  }
   return (
     <nav className="flex flex-col md:flex-row justify-between py-4 px-10 md:px-20 max-w-screen-xl mx-auto">
       <div className="grid grid-cols-3">
@@ -51,5 +51,5 @@ export const Nav = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
