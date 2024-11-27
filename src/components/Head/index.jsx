@@ -1,6 +1,6 @@
 export const Head = () => {
   return (
-	<header className="grid lg:grid-rows-4 lg:grid-flow-col gap-10 mt-20 py-10 lg:mt-24 lg:pt-20">
+	<header className="grid lg:grid-rows-4 lg:grid-flow-col gap-10 mt-20 py-10 lg:gap-0 lg:mt-24 lg:py-20">
 		<div className="flex flex-col gap-2 text-center lg:col-span-2 lg:text-start">
 			<p className="text-ine-text-lg text-ine-gray-300">Hi there!</p>
 			<h1 className="text-ine-heading-md text-ine-gray-900 dark:text-ine-gray-100 font-bold">I&apos;m Inessa Luerce</h1>
@@ -8,7 +8,7 @@ export const Head = () => {
 		
 		<img src="/inessa.png" className="w-52 place-self-center lg:place-self-start lg:w-auto lg:order-last lg:row-span-4" alt="Inessa Luerce"/>
 
-		<div className="flex flex-col gap-6 text-ine-text-md text-ine-gray-900 dark:text-ine-gray-100 lg:col-span-2 lg:row-span-3">
+		<div className="flex flex-col gap-6 text-ine-text-md text-ine-gray-900 dark:text-ine-gray-100 lg:col-span-2 lg:row-span-3 lg:pr-10">
 			<p>
 				An UX/UI Designer based in Porto Alegre, Brazil.
 			</p>
