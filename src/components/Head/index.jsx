@@ -6,7 +6,7 @@ export const Head = () => {
 			<h1 className="text-ine-heading-md text-ine-gray-900 dark:text-ine-gray-100 font-bold">I&apos;m Inessa Luerce</h1>
 		</div>
 		
-		<img src="/inessa.png" className="m-auto lg:order-last lg:row-span-4" alt="Inessa Luerce"/>
+		<img src="/inessa.png" className="w-52 place-self-center lg:place-self-start lg:w-auto lg:order-last lg:row-span-4" alt="Inessa Luerce"/>
 
 		<div className="flex flex-col gap-6 text-ine-text-md text-ine-gray-900 dark:text-ine-gray-100 lg:col-span-2 lg:row-span-3">
 			<p>
