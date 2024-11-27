@@ -19,7 +19,7 @@ export function Home(){
   }, [location])
 
   return (
-    <div className='flex flex-col items-center w-full dark:bg-ine-gray-900'>
+    <div className='flex flex-col items-center w-full h-full dark:bg-ine-gray-900'>
       <div className='fixed top-0 z-40 backdrop-blur transition-colors 
       duration-500 shadow-lg dark:bg-transparent w-full'>
         <Nav/>
@@ -28,7 +28,7 @@ export function Home(){
         <header className='flex flex-col'>          
           <Hero/>
           <Button
-            link='/About'
+            link='/about'
             value='More About Me'
           />
         </header>
@@ -38,7 +38,7 @@ export function Home(){
               pretitle='Here is some of my'
               title='Professional Work'
             />
-            <div className="grid gap-4 justify-center sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-5 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 imgsrc="/nursa-bill-pay-thumb.png"
                 title="Billings and Payments"
@@ -81,7 +81,7 @@ export function Home(){
               pretitle='Studies and'
               title='Personal Projects'
             />
-            <div className="grid gap-4 justify-center sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-5 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 imgsrc="/veg-thumb.png"
                 title="Guia Veg (WIP)"
@@ -129,7 +129,6 @@ export function Home(){
         </main>
         <Footer/>
       </div>
-
     </div>
   )
 }

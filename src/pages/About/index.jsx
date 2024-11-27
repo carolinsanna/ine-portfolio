@@ -5,7 +5,7 @@ import { Footer } from './../../components/Footer'
 
 export function About(){
   return (
-		<div className='flex flex-col items-center gap-4 w-full dark:bg-ine-gray-900'>
+		<div className='flex flex-col items-center gap-4 w-full h-full dark:bg-ine-gray-900'>
 			<div className='fixed top-0 z-40 backdrop-blur transition-colors 
       duration-500 shadow-lg dark:bg-transparent w-full'>
 				<Nav />
