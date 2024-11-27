@@ -12,7 +12,7 @@ export const Footer = () => {
 						<Instagram/>
 					</a>
 				</div>
-				<div className="flex flex-col gap-0.5 items-center justify-center text-ine-gray-900 dark:text-ine-gray-100 lg:flex-row lg:gap-3">
+				<div className="flex flex-col gap-0.5 items-center justify-center text-ine-gray-900 dark:text-ine-gray-100 md:flex-row md:gap-3">
 					<p>Designed by Inessa Luerce</p>
 					<p>Developed by Carolina Dias</p>
 					<p>2024</p>
