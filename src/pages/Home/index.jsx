@@ -43,7 +43,7 @@ export function Home(){
                 imgsrc="/nursa-bill-pay-thumb.png"
                 title="Billings and Payments"
                 description="Targeted micro-projects for Billings and Payments team at Nursa"
-                link="/Title"
+                link="/nursapayments"
                 alt="Bilings and Payments"
               />
               <Card

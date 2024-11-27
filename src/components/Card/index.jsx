@@ -8,14 +8,14 @@ export const Card = ({imgsrc, title, description, link, alt}) => {
         <h3 className="font-bold text-ine-text-md xl:text-ine-heading-xs pb-4">{title}</h3>
         <p className="text-ine-text-sm xl:text-md">{description}</p>
       </div>
-      <form action={link} className="flex justify-center pt-4 pb-6">
+      <a href={link} className="flex justify-center pt-4 pb-6">
         <button type="button" className="flex gap-4 pointer text-ine-link-md xl:text-ine-link-lg text-ine-gray-900 hover:text-ine-gray-500 dark:text-ine-gray-100">
           <p className="self-center">
           More Info
           </p>
           <ButtonArrow className="self-center"/>
         </button>
-      </form>
+      </a>
     </div>
   )
 }
