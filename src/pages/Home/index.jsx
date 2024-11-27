@@ -97,18 +97,11 @@ export function Home(){
                 alt="CatSis"
               />
               <Card
-                imgsrc="/food-app-thumb.png"
-                title="Food / Drink App"
-                description="Daily UI Challenge: Food / Drink Menu"
+                imgsrc="/daily-ui-thumb.png"
+                title="Daily UI Challenges"
+                description="Daily UI Challenges"
                 link="/Title"
                 alt="Food / Drink App"
-              />
-              <Card
-                imgsrc="/404-thumb.png"
-                title="404 Page"
-                description="Daily Challenge: 404 Page"
-                link="/Title"
-                alt="404 Page"
               />
               <Card
                 imgsrc="/portfolio-thumb.png"
@@ -118,9 +111,9 @@ export function Home(){
                 alt="Portfolio"
               />
               <Card
-                imgsrc="/credit-card-thumb.png"
-                title="Credit Card"
-                description="Daily UI Challenge: Credit Card"
+                imgsrc="/placeholder.png"
+                title="Posters"
+                description="Some arts"
                 link="/Title"
                 alt="Credit Card"
               />
