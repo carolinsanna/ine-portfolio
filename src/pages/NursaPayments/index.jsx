@@ -50,7 +50,7 @@ export function NursaPayments(){
 						</p>
 						<ul className='list-disc text-ine-text-md ml-8 text-ine-gray-900 leading-5 dark:text-ine-gray-100 lg:text-ine-text-lg lg:leading-6'>
 							<li><strong>Goal:</strong> Deliver a delightful shift management and payment experience through an intuitive user interface.</li>
-							<li><strong>Approach:</strong> mprove the shift lifecycle experience by ensuring clinicians have a clear understanding of their position within the shift lifecycle. Provide clear calls-to-action for the necessary next steps to facilitate seamless shift progression.</li>
+							<li><strong>Approach:</strong> improve the shift lifecycle experience by ensuring clinicians have a clear understanding of their position within the shift lifecycle. Provide clear calls-to-action for the necessary next steps to facilitate seamless shift progression.</li>
 							<li><strong>Rationale:</strong> Users prefer straightforward instructions and minimal cognitive load when using the system.</li>
 						</ul>
 						<p className='text-ine-text-md text-ine-gray-900 dark:text-ine-gray-100 lg:text-ine-text-lg'>
@@ -58,7 +58,7 @@ export function NursaPayments(){
 						</p>
 						<ul className='list-disc text-ine-text-md ml-8 text-ine-gray-900 leading-5 dark:text-ine-gray-100 lg:text-ine-text-lg lg:leading-6'>
 							<li>Deliver a delightful shift management and payment experience through an intuitive user interface.</li>
-							<li>mprove the shift lifecycle experience by ensuring clinicians have a clear understanding of their position within the shift lifecycle. Provide clear calls-to-action for the necessary next steps to facilitate seamless shift progression.</li>
+							<li>improve the shift lifecycle experience by ensuring clinicians have a clear understanding of their position within the shift lifecycle. Provide clear calls-to-action for the necessary next steps to facilitate seamless shift progression.</li>
 							<li>Users prefer straightforward instructions and minimal cognitive load when using the system.</li>
 						</ul>
 					</section>
