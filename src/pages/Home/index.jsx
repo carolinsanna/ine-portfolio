@@ -50,28 +50,28 @@ export function Home(){
                 imgsrc="/nursa-manage-requests-thumb.png"
                 title="Manage Requests"
                 description="A panel that helps schedulers to select which nurse is the best fit for a job"
-                link="/Title"
+                link="/nursamanagerequest"
                 alt="Manage Requests"
               />
               <Card
                 imgsrc="/nursa-resume-imports-thumb.png"
                 title="Resume Importer"
                 description="Automatically fills out user's profile by uploading their resume"
-                link="/Title"
+                link="/nursaresumeimporter"
                 alt="Resume Importer"
               />
               <Card
                 imgsrc="/pse-thumb.png"
                 title="Plataforma Socioeducativa"
                 description="Logo and the Design System for the Plataforma Socioeducativa (PSE)"
-                link="/Title"
+                link="/undppse"
                 alt="Plataforma Socioeducativa"
               />
               <Card
                 imgsrc="/wodz-thumb.png"
                 title="Wodz"
                 description="Logo for the Music Schools and Studio Wodz"
-                link="/Title"
+                link="/wodz"
                 alt="Wodz"
               />
             </div>
@@ -86,35 +86,35 @@ export function Home(){
                 imgsrc="/veg-thumb.png"
                 title="Guia Veg (WIP)"
                 description="Current phase: ideation"
-                link="/Title"
+                link="/guiaveg"
                 alt="Guia Veg"
               />
               <Card
                 imgsrc="/catsis-thumb.png"
                 title="CatSis"
                 description="An app to find someone to help you with taking care of your cat"
-                link="/Title"
+                link="/catsis"
                 alt="CatSis"
               />
               <Card
                 imgsrc="/daily-ui-thumb.png"
                 title="Daily UI Challenges"
                 description="Daily UI Challenges"
-                link="/Title"
+                link="/dailyuichallenges"
                 alt="Food / Drink App"
               />
               <Card
                 imgsrc="/portfolio-thumb.png"
                 title="Portfolio"
                 description="Process of making this portfolio"
-                link="/Home"
+                link="/portfolio"
                 alt="Portfolio"
               />
               <Card
                 imgsrc="/placeholder.png"
                 title="Posters"
                 description="Some arts"
-                link="/Title"
+                link="/poster"
                 alt="Credit Card"
               />
             </div>
