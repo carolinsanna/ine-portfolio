@@ -50,7 +50,7 @@ export function NursaResumeImporter(){
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
 											<img src={src} alt={`Image ${index+1}`} 
-											className='w-52 h- lg:w-auto lg:h-auto'/>
+											className='w-64 h-auto sm:w-72 lg:w-auto lg:h-auto'/>
 										</div>
 									))}
 								</div>
@@ -64,7 +64,7 @@ export function NursaResumeImporter(){
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
 											<img src={src} alt={`Image ${index+1}`} 
-											className='w-52 h- lg:w-auto lg:h-auto'/>
+											className='w-64 h-auto sm:w-72 lg:w-auto lg:h-auto'/>
 										</div>
 									))}
 								</div>
@@ -78,7 +78,7 @@ export function NursaResumeImporter(){
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
 											<img src={src} alt={`Image ${index+1}`} 
-											className='w-52 h- lg:w-auto lg:h-auto'/>
+											className='w-64 h-auto sm:w-72 lg:w-full lg:h-auto'/>
 										</div>
 									))}
 								</div>
