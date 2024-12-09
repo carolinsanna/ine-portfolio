@@ -83,7 +83,7 @@ export function Home(){
             />
             <div className="grid gap-5 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
-                imgsrc="/veg-thumb.png"
+                imgsrc="/veggie-thumb.png"
                 title="Tudo Vegano (WIP)"
                 description="Current phase: ideation"
                 link="/guiaveg"
@@ -111,7 +111,7 @@ export function Home(){
                 alt="Portfolio"
               />
               <Card
-                imgsrc="/placeholder.png"
+                imgsrc="/arts-thumb.png"
                 title="Posters"
                 description="Some arts"
                 link="/poster"
