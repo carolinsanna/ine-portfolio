@@ -4,7 +4,6 @@ import { Footer } from  '../../components/Footer'
 export function Portfolio(){
 	return (
 		<div className='flex flex-col items-center w-full h-full dark:bg-ine-gray-900'>
-			<div className='flex flex-col items-center w-full h-full dark:bg-ine-gray-900'>
 				<div className="fixed top-0 z-40 backdrop-blur transition-colors 
     	  	duration-500 shadow-lg dark:bg-transparent w-full">
     	  	  <Nav />
@@ -25,7 +24,6 @@ export function Portfolio(){
 					</main>
 					<Footer/>
 				</div>
-			</div>
 		</div>
 	)
 }
