@@ -84,7 +84,7 @@ export function Home(){
             <div className="grid gap-5 justify-center sm:grid-cols-2 lg:grid-cols-3">
               <Card
                 imgsrc="/veg-thumb.png"
-                title="Guia Veg (WIP)"
+                title="Tudo Vegano (WIP)"
                 description="Current phase: ideation"
                 link="/guiaveg"
                 alt="Guia Veg"
