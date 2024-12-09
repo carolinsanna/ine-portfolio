@@ -10,7 +10,7 @@ export function NursaManageRequest(){
       </div>
 			<div className="px-10 max-w-screen-xl md:px-20">
 				<main className='flex flex-col gap-6 mt-20 py-10 md:mt-24 md:py-20 md:gap-10'>
-					<div className="flex flex-col gap-2 lg:col-span-2 ">
+					<div className="flex flex-col gap-2">
 						<p className="text-ine-text-lg text-ine-gray-300 uppercase">Nursa</p>
 						<h1 className="text-ine-heading-sm text-ine-gray-900 dark:text-ine-gray-100 md:text-ine-heading-lg font-bold">Manage Request</h1>
 					</div>
