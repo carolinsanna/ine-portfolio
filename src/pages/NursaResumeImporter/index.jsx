@@ -45,7 +45,7 @@ export function NursaResumeImporter(){
 					<section className='grid gap-10'>
 						<div className='grid gap-4'>
 							<div className="container mx-auto">
-								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:px-0'>
+								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:mx-0'>
 									{imgsRowOne.map((src, index) => (
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
@@ -59,7 +59,7 @@ export function NursaResumeImporter(){
 						</div>
 						<div className='grid gap-4'>
 							<div className="container mx-auto">
-								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:px-0'>
+								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:mx-0'>
 									{imgsRowTwo.map((src, index) => (
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
@@ -73,7 +73,7 @@ export function NursaResumeImporter(){
 						</div>
 						<div className='grid gap-4'>
 							<div className="container mx-auto">
-								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:px-0'>
+								<div className='relative -mr-10 pr-10 flex overflow-x-auto gap-4 scroll-smooth lg:grid lg:grid-cols-5 lg:overflow-visible lg:mx-0'>
 									{imgsRowThree.map((src, index) => (
 										<div key ={index}
 										className='flex shrink-0 scroll-snap-center lg:w-auto'>
