@@ -3,7 +3,10 @@ import ButtonArrow from "../../assets/btn-arrow.svg?react"
 export const Card = ({imgsrc, title, description, link, alt}) => {
   return (
     <div className="flex flex-col justify-stretch card text-ine-gray-900 border w-full dark:text-ine-gray-100 lg:pb-0 xl:pb-5">
-      <img src={imgsrc} alt={alt}/>
+      <div className="relative h-[220px] overflow-hidden">
+        <img src={imgsrc} alt={alt} className="absolute inset-0 w-full h-full object-cover"/>
+      </div>
+      
       <div className="px-5 pt-6 pb-4 grow">
         <h3 className="font-bold text-ine-text-md xl:text-ine-heading-xs pb-4">{title}</h3>
         <p className="text-ine-text-sm xl:text-md">{description}</p>
