@@ -113,7 +113,7 @@ export function Home(){
               <Card
                 imgsrc="/arts-thumb.png"
                 title="Posters"
-                description="Some arts"
+                description="Personal arts, mostly collages"
                 link="/poster"
                 alt="Credit Card"
               />
