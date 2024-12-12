@@ -46,7 +46,7 @@ export function GuiaVeg(){
             <img
               src="veggie-thumb.png"
               alt="Tudo vegano - Teu guia vegano em POA"
-              className="w-96 place-self-center lg:w-auto lg:place-self-end"
+              className="w-96 place-self-center lg:w-auto lg:place-self-start"
             />
           </div>
           <hr className="border my-6 border-ine-gray-300 lg:my-2" />
@@ -65,7 +65,7 @@ export function GuiaVeg(){
               </p>
             </section>
             <section className="grid gap-6">
-              <h2 className="text-ine-heading-xs font-bold">Metodology</h2>
+              <h2 className="text-ine-heading-xs font-bold">Methodology</h2>
               <p>
                 Sample: The survey was conducted with 64 participants from Porto
                 Alegre and some cities in Brazil.
