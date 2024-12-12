@@ -5,5 +5,11 @@ import svgr from "vite-plugin-svgr";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: "/ine-portfolio/"  
+  base: "/ine-portfolio/",
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    historyApiFallback: true,
+  }  
 })
