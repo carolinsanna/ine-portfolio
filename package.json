@@ -1,16 +1,16 @@
 {
   "name": "ine-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://carolinsanna.github.io/ine-portfolio/",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "localforage": "^1.10.0",
